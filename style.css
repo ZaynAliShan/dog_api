@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+html {
+  background: url('img1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  /* height: 100%;
+  width: 100%; */
+  overflow: hidden;
+  font-family: 'Rampart One', cursive;
+}
+
+#img-parent {
+  display: flex;
+  justify-content: center;
+}
+
+
+#image-holder {
+  border: 2px solid black;
+  width: 341px;
+  height: 321px;
+}
+#img-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+#img-button #get-image {
+  padding: 5px 10px;
+  border: 2px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+#img-button #get-image:hover {
+  transform: scale(1.1);
+}
+
+
+footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;
+  text-decoration: none;
+}
+footer a:link {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+footer h3 a{
+  color: white;
+}
+
+h1 {
+  color: white;
+}
